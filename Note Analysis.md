@@ -51,11 +51,36 @@ print('Value at Row 2 Column 2: %s' % matrix[1][1])
   
   #Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
   ```
-  - 
-  
-  [List Comprehension Example 2](https://mrparkonline.github.io/courses/datastruct/matrices/)
-  
+  ---
+  # Map & Filter
+  ## The Map Function
+  ---
+  - Map function applies a function to a set of iterable data
+
+  [Example]                              
   ```python3
-  
+    #Formatted as: 
+    map(function_name, sequence)
+    
+    #Example of map function
+    def square(num):
+      return num ** 2
+    #end square function (function squares the number argument given)
+    
+    array = list(range(1, 11))
+    square_array = list(map(square, array))
+    
+    print('Original Array', array)
+    print('Array Squared:', square_array)
+    
+    #Output: Original Array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    #Output 2: Array Squared: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+   ```
+   - Map function doesn't return any specific data type so it is common practice to execute a list function after using map
+   ---
+   ## Filter Function
+   ---
+   - Filter function
+    
   
 
