@@ -290,14 +290,14 @@ print('Value at Row 2 Column 2: %s' % matrix[1][1])
    ---
    ## Powering Up Sets: Set Operators
    ---
-   - Union
-   - Intersection
-   - Difference
-   - Symmetric Difference
-   - Proper Subset
-   - Subset
-   - Proper Superset
-   - Superset
+   - Union: Joining two sets
+   - Intersection: Items that only exist in two sets
+   - Difference: Items that only exist in the first set but not the second
+   - Symmetric Difference: Items that exist in one set or the other but never in both
+   - Proper Subset: One set is a proper subset of another if all members of the first subset can be found in the second without the first and the second being identical
+   - Subset: A < B but A can also = B unlike a proper subset
+   - Proper Superset: A and B aren't equal but all the values of B exist in A
+   - Superset: A is a superset of B given A > B or A == B
    ## Disjoint: A Set Behavior Property
    ---
    - Two sets are disjointed when they have no value in common
